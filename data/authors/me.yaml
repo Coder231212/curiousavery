@@ -2,124 +2,153 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
-  pronouns: he/him
+  display: Avery H. Liu
+  given: Avery
+  middle: H.
+  family: Liu
 status:
-  icon: "🚀"
-role: Senior AI Research Scientist
+  icon: "🧭"
+role: Student researcher and builder
 bio: >
-  Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models
-  and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000
-  citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work,
-  he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+  I am a Brentwood School student exploring how artificial intelligence, computer vision,
+  and environmental science can make healthcare and communities safer. My projects range
+  from Formosan language preservation to coastal microplastics research, wound assessment,
+  and the challenge of teaching people and AI to reason reliably about left and right.
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Brentwood School · Class of 2029
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@meta.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/alexjohnsonai
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: mailto:avery.hong.liu@gmail.com
+    label: Email Avery
+  - icon: hero/arrows-right-left
+    url: https://leftrightquest.org/
+    label: LeftRightQuest
+  - icon: hero/document-arrow-down
+    url: /uploads/resume.pdf
+    label: Download resume
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Human-centered artificial intelligence
+  - Healthcare and patient safety
+  - Environmental science
+  - Language preservation
 education:
-  - degree: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: High School · Class of 2029
+    institution: Brentwood School, Los Angeles
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Honors coursework across chemistry, precalculus, world history, Spanish, independent study, and digital art, with an emphasis on quantitative reasoning, scientific analysis, and written communication.
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Characterizing the Microbiome Associated with Plastics in Urban Runoff Environments
+    org: Independent research project
+    start: 2026-09-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Designing a high-throughput sequencing study of microorganisms associated with plastics in Ballona Creek, with control substrates for comparison.
+    tags:
+      - Microbiome
+      - Environmental science
+      - Study design
+  - role: WoundCorder
+    org: Smartphone wound assessment engineering project
+    start: 2025-07-01
+    end: 2026-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Supporting an AI-enabled smartphone workflow that combines LiDAR-based 3D sensing and computer vision to estimate wound area and volume and structure wound characterization.
+    tags:
+      - Computer vision
+      - LiDAR
+      - Healthcare AI
+  - role: Evaluating Microplastic Contamination in Mussels on the Southern and Central California Coast
+    org: Field research project
+    start: 2025-10-01
+    end: 2026-06-30
+    summary: |
+      Planned and conducted sampling at more than 25 sites from Imperial Beach to San Simeon, identifying runoff-associated hotspots and establishing a baseline for future polymer and microbiome studies.
+    tags:
+      - Field research
+      - Microplastics
+      - Data organization
+  - role: RuKaiKai
+    org: LLM-powered Paiwan-English translation chatbot
+    start: 2024-10-01
+    end: 2025-03-31
+    summary: |
+      Curated linguistic data, designed structured prompts, and iteratively evaluated outputs for a chatbot supporting access to an endangered Formosan language.
+    tags:
+      - Language preservation
+      - Prompt engineering
+      - Evaluation
 skills:
-  - name: Technical Skills
+  - name: Research and making
+    description: From field collection to prototype evaluation
+    color: '#0f766e'
+    color_border: '#5eead4'
     items:
-      - label: Python & PyTorch
-        level: 5
+      - label: LLM prompting and evaluation
         icon: code-bracket
-      - label: Machine Learning
-        level: 5
+      - label: Research documentation
+        icon: document-text
+      - label: Data organization
         icon: chart-bar
-      - label: Cloud Computing (AWS/GCP)
-        level: 4
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+      - label: Experimental planning
+        icon: beaker
+  - name: Communication
+    description: Making ideas understandable and collaborative
+    color: '#0369a1'
+    color_border: '#7dd3fc'
     items:
-      - label: Hiking in the Rockies
-        level: 4
+      - label: Public speaking
+        icon: microphone
+      - label: Model United Nations
+        icon: globe-alt
+      - label: Meeting organization
+        icon: user-group
+      - label: Scientific writing
+        icon: pencil-square
+  - name: Tools and activities
+    description: Digital fluency and active problem-solving
+    color: '#ca8a04'
+    color_border: '#fde047'
+    items:
+      - label: Google Workspace
+        icon: cloud
+      - label: Microsoft Office
+        icon: table-cells
+      - label: Rock climbing
         icon: person-simple-walk
-      - label: Building Custom PCs
-        level: 5
-        icon: cpu-chip
-      - label: Sci-Fi Reading
-        level: 4
-        icon: book-open
+      - label: Varsity golf
+        icon: trophy
 languages:
   - name: English
     level: 5
   - name: Spanish
     level: 3
+  - name: Mandarin Chinese
+    level: 2
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Selected Student Speaker
+    date: '2026-01-01'
+    awarder: Johns Hopkins Global Health Leadership Conference
+    icon: hero/microphone
+  - title: Honorable Mention · Ecology
+    date: '2026-01-01'
+    awarder: Los Angeles County Science Fair
     icon: hero/trophy
-    summary: Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: Honorable Mention · Mathematics and Computer Science
+    date: '2025-01-01'
+    awarder: Los Angeles County Science Fair
+    icon: hero/trophy
+  - title: Congressional App Challenge Recognition · WoundCorder
+    date: '2025-01-01'
+    awarder: Office of Rep. Ted Lieu, CA-36
+    icon: hero/device-phone-mobile
+  - title: Presidential AI Challenge Recognition · Fix and Flip AI
+    date: '2025-01-01'
+    awarder: Presidential AI Challenge
+    icon: hero/sparkles
+  - title: 2nd Place · Good Health and Well-Being Track
+    date: '2025-01-01'
+    awarder: World Series of Innovation Challenge · MetLife Foundation
+    icon: hero/trophy
+  - title: Applied Science Finalist
+    date: '2025-01-01'
+    awarder: Belldegrun Center for Innovative Leadership
     icon: hero/academic-cap
-    summary: Recognized for contributions to scaling laws in deep learning.

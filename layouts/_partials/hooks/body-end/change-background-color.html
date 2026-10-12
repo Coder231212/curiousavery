@@ -1,24 +1,65 @@
-<script>
-  let bg = document.getElementById('page-bg');
-  bg.style.setProperty('will-change', 'filter', '');
-  let hue = 0;
+<style>
+  #page-bg {
+    filter: none !important;
+    opacity: 0.78;
+  }
 
-  // Dark mode support
-  let isDark = document.documentElement.classList.contains('dark');
-  document.addEventListener('hbThemeChange', (e) => {
-    console.debug('Theme changed - isDarkTheme? ' + e.detail.isDarkTheme());
-    isDark = e.detail.isDarkTheme();
-  });
+  .dark #page-bg {
+    filter: invert(1) saturate(0.85) hue-rotate(145deg) !important;
+    opacity: 0.28;
+  }
 
-  setInterval(
-    function () {
-      hue = (hue + 1) % 360.;
+  .resume-biography .avatar-wrapper {
+    position: relative;
+  }
 
-      if (isDark) {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg) invert(1) saturate(2)', '');
-      } else {
-        bg.style.setProperty('filter', 'hue-rotate(' + hue + 'deg)', '');
-      }
+  .resume-biography .avatar {
+    border: 4px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 24px 70px rgba(15, 118, 110, 0.24);
+  }
 
-    }, (5000 / 360.));
-</script>
+  .resume-biography .bio-text {
+    color: rgb(51 65 85);
+  }
+
+  .dark .resume-biography .bio-text {
+    color: rgb(203 213 225);
+  }
+
+  .prose h3 {
+    color: rgb(15 118 110);
+    margin-top: 2.25rem;
+  }
+
+  .dark .prose h3 {
+    color: rgb(94 234 212);
+  }
+
+  .prose a {
+    text-decoration-thickness: 0.12em;
+    text-underline-offset: 0.2em;
+  }
+
+  #section-cta-button-list > div:nth-of-type(2) > a > div {
+    display: grid;
+    grid-template-columns: 2.5rem minmax(0, 1fr) 2.5rem;
+    align-items: center;
+  }
+
+  #section-cta-button-list > div:nth-of-type(2) > a > div > div:first-child {
+    grid-column: 1;
+  }
+
+  #section-cta-button-list > div:nth-of-type(2) > a > div > div:last-child {
+    grid-column: 2;
+    width: auto;
+    margin-left: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>

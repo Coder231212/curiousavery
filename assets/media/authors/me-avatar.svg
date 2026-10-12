@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Avery H. Liu monogram</title>
+  <desc id="desc">The initials AL over a teal and blue field with orbiting dots.</desc>
+  <defs>
+    <linearGradient id="field" x1="80" y1="64" x2="576" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f766e"/>
+      <stop offset="0.52" stop-color="#0369a1"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(214 176) rotate(45) scale(360)">
+      <stop stop-color="#67e8f9" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="640" rx="128" fill="url(#field)"/>
+  <rect width="640" height="640" rx="128" fill="url(#glow)"/>
+  <circle cx="320" cy="320" r="222" fill="none" stroke="#ccfbf1" stroke-opacity="0.52" stroke-width="4"/>
+  <path d="M92 364c76-116 196-190 350-188 42 1 79 7 112 18" fill="none" stroke="#fde68a" stroke-opacity="0.9" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="112" cy="338" r="16" fill="#fde047"/>
+  <circle cx="548" cy="202" r="12" fill="#5eead4"/>
+  <circle cx="486" cy="500" r="9" fill="#bae6fd"/>
+  <text x="320" y="388" text-anchor="middle" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="190" font-weight="750" letter-spacing="-14">AL</text>
+</svg>
